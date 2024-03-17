@@ -1574,3 +1574,78 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.17-19.29.02:302][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 914 ms)
 [2024.03.17-19.29.02:302][967]AssetCheck: New page: Asset Save: Level_00
 [2024.03.17-19.29.02:302][967]LogContentValidation: Display: Validating /Script/Engine.World /Game/FetchMeContent/Maps/Level_00.Level_00
+[2024.03.17-19.30.48:001][805]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.17-19.30.48:749][889]LogEditorViewport: Clicking Background
+[2024.03.17-19.30.54:979][573]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.03.17-19.30.54:979][573]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.03.17-19.30.54:981][573]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.StaticMeshActor_0
+[2024.03.17-19.30.54:986][573]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.StaticMeshActor_0
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: ================================================
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Total job queries 52, among them cache hits 0 (0.00%)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Tracking 43 distinct input hashes that result in 37 distinct outputs (86.05%)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: RAM used: 961.60 KiB of 1.60 GiB budget. Usage: 0.06%
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Shaders Compiled: 43
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Jobs assigned 47, completed 43 (91.49%)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Average time worker was idle: 32.98 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.42 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 0.81 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Job life time (pending + execution): average 0.50 s, max 0.85
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Shader code size: average 34.854 KiB, min 4.008 KiB, max 49.277 KiB
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.66 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Average processing rate: 11.75 jobs/sec
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Total thread time: 11.973 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Total thread preprocess time: 1.307 s
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Percentage time preprocessing: 10.91%
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Effective parallelization: 3.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 0.46 sec, max 0.55 sec, min 0.35 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.31 sec, max 0.36 sec, min 0.20 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.28 sec, max 0.33 sec, min 0.20 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.78% of total time (compiled    8 times, average 0.31 sec, max 0.36 sec, min 0.20 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.61% of total time (compiled    8 times, average 0.28 sec, max 0.33 sec, min 0.20 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.22% of total time (compiled    4 times, average 0.46 sec, max 0.55 sec, min 0.35 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.30% of total time (compiled    6 times, average 0.25 sec, max 0.31 sec, min 0.20 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.99% of total time (compiled    7 times, average 0.12 sec, max 0.19 sec, min 0.09 sec)
+[2024.03.17-19.30.55:442][590]LogShaderCompilers: Display: ================================================
+[2024.03.17-19.30.55:677][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.17-19.31.01:043][ 67]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.03.17-19.31.05:362][452]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.03.17-19.31.05:362][452]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.03.17-19.31.05:364][452]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.DirectionalLight_0
+[2024.03.17-19.31.05:364][452]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.DirectionalLight_0
+[2024.03.17-19.31.15:078][358]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.03.17-19.31.15:078][358]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.03.17-19.31.15:079][358]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.SkyLight_0
+[2024.03.17-19.31.15:079][358]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/FetchMeContent/Maps/Level_00.Level_00:PersistentLevel.SkyLight_0
+[2024.03.17-19.31.15:948][413]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.03.17-19.31.22:301][956]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.17-19.31.35:496][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.17-19.31.35:555][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.17-19.31.35:560][ 93]LogSavePackage: Moving output files for package: /Game/FetchMeContent/Maps/Level_00
+[2024.03.17-19.31.35:560][ 93]LogSavePackage: Moving '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Saved/Level_00303B6155468EFF03D1BB728BB6751CE3.tmp' to '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Maps/Level_00.umap'
+[2024.03.17-19.31.35:563][ 93]LogFileHelpers: Saving map 'Level_00' took 0.021
+[2024.03.17-19.31.35:572][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 990 ms)
+[2024.03.17-19.31.35:573][ 93]AssetCheck: New page: Asset Save: Level_00
+[2024.03.17-19.31.35:573][ 93]LogContentValidation: Display: Validating /Script/Engine.World /Game/FetchMeContent/Maps/Level_00.Level_00
+[2024.03.17-19.31.37:210][228]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.03.17-19.32.00:835][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.17-19.32.00:897][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.03.17-19.32.00:901][286]LogSavePackage: Moving output files for package: /Game/FetchMeContent/Maps/Level_00
+[2024.03.17-19.32.00:902][286]LogSavePackage: Moving '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Saved/Level_00B935DF2D40BF7B0C1D7086A381345F74.tmp' to '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Maps/Level_00.umap'
+[2024.03.17-19.32.00:905][286]LogFileHelpers: Saving map 'Level_00' took 0.021
+[2024.03.17-19.32.00:909][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.06 sec)
+[2024.03.17-19.32.00:910][286]AssetCheck: New page: Asset Save: Level_00
+[2024.03.17-19.32.00:910][286]LogContentValidation: Display: Validating /Script/Engine.World /Game/FetchMeContent/Maps/Level_00.Level_00
+[2024.03.17-19.32.02:694][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.03.17-19.32.02:697][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.17-19.32.02:771][452]LogSavePackage: Moving output files for package: /Game/FetchMeContent/Code/FetchMeGamemode
+[2024.03.17-19.32.02:771][452]LogSavePackage: Moving '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Saved/FetchMeGamemode677D88B14D05DED6A5CD74BEA386922F.tmp' to '../../../../../../Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Code/FetchMeGamemode.uasset'
+[2024.03.17-19.32.02:782][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 1.14 sec)
+[2024.03.17-19.32.02:783][452]AssetCheck: New page: Asset Save: FetchMeGamemode
+[2024.03.17-19.32.02:783][452]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FetchMeContent/Code/FetchMeGamemode.FetchMeGamemode

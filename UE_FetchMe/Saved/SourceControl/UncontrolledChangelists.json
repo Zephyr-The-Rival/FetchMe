@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Maps/Level_00.umap"
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Maps/Level_00.umap",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/FetchMe/UE_FetchMe/Content/FetchMeContent/Code/FetchMeGamemode.uasset"
 			]
 		}
 	]
