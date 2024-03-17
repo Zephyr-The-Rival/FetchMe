@@ -73,4 +73,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-UE_FetchMe\Saved
+UE_FetchMe\Saved\Logs
