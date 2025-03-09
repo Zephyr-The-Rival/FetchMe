@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://b3d577bwg4ya"]
+
+[ext_resource type="Script" uid="uid://cugqaf63vu4ip" path="res://FetchMeContent/TestScene/TestCharacter/TestCharacter.cs" id="1_cmvse"]
+[ext_resource type="Texture2D" uid="uid://cp4eydtjv0j6c" path="res://FetchMeContent/TestScene/TestCharacter/TestCharacter_Idle-Sheett.png" id="2_cmvse"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrmnt"]
+atlas = ExtResource("2_cmvse")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omcpl"]
+atlas = ExtResource("2_cmvse")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xig0o"]
+atlas = ExtResource("2_cmvse")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thfig"]
+atlas = ExtResource("2_cmvse")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s1rho"]
+animations = [{
+"frames": [{
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_hrmnt")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_omcpl")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_xig0o")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_thfig")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ry15q"]
+size = Vector2(14, 10.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_cmvse")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(0, -64)
+sprite_frames = SubResource("SpriteFrames_s1rho")
+frame_progress = 0.430874
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -4.75)
+shape = SubResource("RectangleShape2D_ry15q")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -23)
+zoom = Vector2(5.085, 5.085)

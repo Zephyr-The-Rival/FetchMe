@@ -1,0 +1,62 @@
+[gd_scene load_steps=4 format=3 uid="uid://draujy2dtn4p7"]
+
+[ext_resource type="Texture2D" uid="uid://btjdowlj65re1" path="res://FetchMeContent/TestScene/Background.png" id="1_2p1od"]
+[ext_resource type="PackedScene" uid="uid://dd1chtasjny3w" path="res://FetchMeContent/TestScene/tree.tscn" id="2_tjkx3"]
+[ext_resource type="PackedScene" uid="uid://b3d577bwg4ya" path="res://FetchMeContent/TestScene/TestCharacter/TestCharacter.tscn" id="3_g54ek"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -1
+texture_filter = 1
+position = Vector2(64, 64)
+texture = ExtResource("1_2p1od")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_g54ek")]
+position = Vector2(68, 114)
+
+[node name="Trees" type="Node2D" parent="."]
+
+[node name="Tree" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 57
+z_as_relative = false
+position = Vector2(16, 57)
+scale = Vector2(-1, 1)
+
+[node name="Tree2" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 48
+z_as_relative = false
+position = Vector2(48, 48)
+
+[node name="Tree3" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 77
+z_as_relative = false
+position = Vector2(100, 77)
+scale = Vector2(-1, 1)
+
+[node name="Tree4" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 114
+z_as_relative = false
+position = Vector2(24, 114)
+
+[node name="Tree5" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 110
+z_as_relative = false
+position = Vector2(109, 110)
+scale = Vector2(-1, 1)
+
+[node name="Tree6" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 23
+z_as_relative = false
+position = Vector2(80, 23)
+
+[node name="Tree8" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 15
+z_as_relative = false
+position = Vector2(70, 15)
+scale = Vector2(-1, 1)
+
+[node name="Tree7" parent="Trees" instance=ExtResource("2_tjkx3")]
+z_index = 20
+z_as_relative = false
+position = Vector2(111, 20)

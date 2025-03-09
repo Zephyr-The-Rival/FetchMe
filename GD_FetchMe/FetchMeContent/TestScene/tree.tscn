@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dd1chtasjny3w"]
+
+[ext_resource type="Texture2D" uid="uid://butbm66ocq6c6" path="res://FetchMeContent/TestScene/Tree.png" id="1_er34m"]
+[ext_resource type="Script" uid="uid://cnidgyr3lhw7o" path="res://FetchMeContent/TestScene/Tree.cs" id="2_ygjo4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ygjo4"]
+size = Vector2(13, 7)
+
+[node name="Root" type="Node2D"]
+script = ExtResource("2_ygjo4")
+
+[node name="Tree" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -20)
+texture = ExtResource("1_er34m")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tree"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tree/StaticBody2D"]
+position = Vector2(0.5, 16.5)
+shape = SubResource("RectangleShape2D_ygjo4")
