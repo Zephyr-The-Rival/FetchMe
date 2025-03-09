@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dxc3uw4hxvm1p"]
+
+[ext_resource type="Texture2D" uid="uid://m30oohloc5dx" path="res://FetchMeContent/TestScene/GrassTileset/grass9x9.png" id="1_8weeg"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rfe6p"]
+texture = ExtResource("1_8weeg")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2ubnv"]
+sources/0 = SubResource("TileSetAtlasSource_rfe6p")
+
+[node name="TileMap" type="TileMap"]
+texture_filter = 1
+tile_set = SubResource("TileSet_2ubnv")
+format = 2
+layer_0/tile_data = PackedInt32Array(-458752, 65536, 0, -458751, 65536, 0, -458750, 65536, 0, -458749, 131072, 0, -393213, 131072, 1, -327677, 131072, 2, -327678, 65536, 2, -327679, 0, 2, -393215, 65536, 1, -393214, 65536, 1, -393216, 65536, 1, -393217, 65536, 1, -327681, 65536, 1)
