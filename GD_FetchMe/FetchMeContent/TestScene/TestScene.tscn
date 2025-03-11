@@ -1,19 +1,21 @@
-[gd_scene load_steps=4 format=3 uid="uid://draujy2dtn4p7"]
+[gd_scene load_steps=5 format=4 uid="uid://draujy2dtn4p7"]
 
 [ext_resource type="Texture2D" uid="uid://btjdowlj65re1" path="res://FetchMeContent/TestScene/Background.png" id="1_2p1od"]
 [ext_resource type="PackedScene" uid="uid://dd1chtasjny3w" path="res://FetchMeContent/TestScene/tree.tscn" id="2_tjkx3"]
 [ext_resource type="PackedScene" uid="uid://b3d577bwg4ya" path="res://FetchMeContent/TestScene/TestCharacter/TestCharacter.tscn" id="3_g54ek"]
+[ext_resource type="TileSet" uid="uid://b3w31rm5wmmgo" path="res://FetchMeContent/TestScene/GrassTileset/GrassTileSet.tres" id="4_e1v0q"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
+visible = false
 z_index = -1
 texture_filter = 1
 position = Vector2(64, 64)
 texture = ExtResource("1_2p1od")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_g54ek")]
-position = Vector2(68, 114)
+position = Vector2(69, 72)
 
 [node name="Trees" type="Node2D" parent="."]
 
@@ -60,3 +62,9 @@ scale = Vector2(-1, 1)
 z_index = 20
 z_as_relative = false
 position = Vector2(111, 20)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+z_index = -1
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAAAAgAAAAAAAIAAAABAAgAAAABAAIAAAACAAgAAAABAAIAAAADAAgAAAACAAIAAAADAAcAAAACAAEAAAAEAAYAAAABAAIAAAADAAYAAAABAAEAAAAFAAYAAAABAAIAAAAGAAYAAAABAAIAAAA=")
+tile_set = ExtResource("4_e1v0q")
