@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/Pixelation/M_Pixelate.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/Pixelation/MF_PostProcessPixelate.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/Characters/Mannequins/Materials/M_Mannequin.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/0J/6ICH8UYIWCKI1CQI7E2E95.uasset",
+				"C:/Users/oleor/Documents/GitHub/HobbyStuff/PixelShader/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/6O/GOFNMZ8LR29R32N1PFP6BA.uasset"
+			]
+		}
+	]
+}
